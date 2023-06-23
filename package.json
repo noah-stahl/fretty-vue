@@ -1,0 +1,14 @@
+{
+  "name": "fretty-vue",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:noah-stahl/fretty-vue.git",
+  "author": "noah-stahl <noah.stahl@mindmatters.de>",
+  "license": "MIT",
+  "dependencies": {
+    "vue": "^3.3.4"
+  },
+  "devDependencies": {
+    "typescript": "^5.1.3"
+  }
+}
