@@ -1,5 +1,5 @@
 import { Howl } from 'howler'
-import { PitchClass } from './PitchClass'
+import { type PitchClass } from './PitchClass'
 
 export type Note = {
   pitchClass: PitchClass;
