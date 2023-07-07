@@ -1,11 +1,17 @@
 <script setup lang="ts">
-defineProps({
-  noteName: String
-})
+import type { Fret } from '../types/Fret';
+const props = defineProps<{
+  fret: Fret
+}>()
+const playNote = () => {
+    console.log(props.fret.note)
+    props.fret.note.sound.play()
+    props.fret.note.sound.fade(1, 0, 1500)
+  }
 </script>
 
 <template>
-  <button class="fretButton border-2">{{ noteName }}</button>
+  <button class="fretButton border-2" @click="playNote">{{ fret.fretNumber }}</button>
 </template>
 
 
