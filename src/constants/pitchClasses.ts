@@ -7,7 +7,7 @@ export const A: PitchClass = {
 }
 export const ASharp: PitchClass = {
   tone: Tone.ASharp,
-  color: chroma('#fabed4')
+  color: chroma('#ff7ed4')
 } 
 export const B: PitchClass = {
   tone: Tone.B,
@@ -23,7 +23,7 @@ export const CSharp: PitchClass = {
 } 
 export const D: PitchClass = {
   tone: Tone.D,
-  color: chroma('#3cb44b')
+  color: chroma('#5ec55c')
 } 
 export const DSharp: PitchClass = {
   tone: Tone.DSharp,
@@ -43,7 +43,7 @@ export const FSharp: PitchClass = {
 } 
 export const G: PitchClass = {
   tone: Tone.G,
-  color: chroma('#911eb4')
+  color: chroma('#d65eee')
 } 
 export const GSharp: PitchClass = {
   tone: Tone.GSharp,

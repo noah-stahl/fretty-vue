@@ -20,5 +20,13 @@ const color = props.fret.note.pitchClass.color.hex();
 .fretButton {
   width: 70px;
   height: 50px;
+  color: white;
+  font-size: 22pt;
+  text-shadow:
+		-1px -1px 0 #000,
+		1px -1px 0 #000,
+		-1px 1px 0 #000,
+		2px 2px 0 #000;
+
 }
 </style>
