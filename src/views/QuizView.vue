@@ -5,7 +5,6 @@ import { A_FRETS, B_FRETS, D_FRETS, G_FRETS, HIGH_E_FRETS, LOW_E_FRETS } from '.
 
 <template>
   <div>
-    <h1>Fretboard</h1>
     <div>
       <FretButton v-for="fret in HIGH_E_FRETS" :key="fret.fretNumber" :fret="fret" />
     </div>
@@ -26,4 +25,3 @@ import { A_FRETS, B_FRETS, D_FRETS, G_FRETS, HIGH_E_FRETS, LOW_E_FRETS } from '.
     </div>
   </div>
 </template>
-../constants/Frets

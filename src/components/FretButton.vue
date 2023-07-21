@@ -8,7 +8,7 @@ const playNote = () => {
     props.fret.note.sound.play()
     props.fret.note.sound.fade(1, 0, 1500)
   }
-const color = props.fret.note.pitchClass.color.hex();
+const color = props.fret.note.pitchClass.color.alpha(0.75).hex();
 </script>
 
 <template>
