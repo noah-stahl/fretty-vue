@@ -1,5 +1,5 @@
 # fretty specific
-src/assets/sounds/*
+src/client/assets/sounds/*
 # Logs
 logs
 *.log
